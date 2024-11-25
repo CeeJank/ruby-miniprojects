@@ -2,7 +2,6 @@
 # loop through dictionary for each word and determine if hash has key
 # key exists, iterate value, if not add value 1
 
-
 def substrings(word, dictionary)
    hash = {} # empty hash to store output
    string_array = word.downcase.split 
@@ -18,7 +17,6 @@ def substrings(word, dictionary)
    end
    puts hash
 end
-
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
